@@ -208,6 +208,7 @@ class Demo(QWidget):
         msg_box.exec_()
 
 if __name__ == '__main__':
+    #this is demo
     app = QApplication(sys.argv)
     main = Demo()
     sys.exit(app.exec())
